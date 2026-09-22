@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>موقع ألعاب</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111827;
+      color: white;
+    }
+
+    header {
+      background: #1f2937;
+      padding: 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #22c55e;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .game {
+      background: #1f2937;
+      border-radius: 15px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .game h2 {
+      margin: 10px 0;
+    }
+
+    .game p {
+      color: #cbd5e1;
+    }
+
+    .download {
+      display: inline-block;
+      background: #22c55e;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .download:hover {
+      background: #16a34a;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🎮 موقع ألعاب</h1>
+    <p>أهلاً بك في موقع الألعاب الخاص بي</p>
+  </header>
+
+  <div class="container">
+
+    <h2>🎮 الألعاب</h2>
+
+    <div class="games">
+
+      <div class="game">
+        <h2>لعبة تجريبية 1</h2>
+        <p>وصف اللعبة هنا</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+
+      <div class="game">
+        <h2>لعبة تجريبية 2</h2>
+        <p>وصف اللعبة هنا</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+
+      <div class="game">
+        <h2>لعبة تجريبية 3</h2>
+        <p>وصف اللعبة هنا</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+          </html>
